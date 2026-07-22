@@ -3,12 +3,12 @@ import Reveal from "./Reveal";
 import { StaggerItem, StaggerReveal } from "./StaggerReveal";
 
 const galleryImages = [
-  { src: "/assets/social-4", alt: "Vin roșu turnat într-un pahar" },
-  { src: "/assets/social-5", alt: "Vin servit la masă" },
-  { src: "/assets/social-6", alt: "Degustare de vin în magazin" },
-  { src: "/assets/social-1", alt: "Pahar și sticlă de vin roșu" },
-  { src: "/assets/social-7", alt: "Vin turnat în mai multe pahare" },
-  { src: "/assets/social-3", alt: "Pahar cu vin într-o atmosferă caldă" },
+  { src: "/assets/social-4.png", alt: "Vin roșu turnat într-un pahar" },
+  { src: "/assets/social-5.png", alt: "Vin servit la masă" },
+  { src: "/assets/social-6.png", alt: "Degustare de vin în magazin" },
+  { src: "/assets/social-1.png", alt: "Pahar și sticlă de vin roșu" },
+  { src: "/assets/social-7.png", alt: "Vin turnat în mai multe pahare" },
+  { src: "/assets/social-3.png", alt: "Pahar cu vin într-o atmosferă caldă" },
 ] as const;
 
 export default function Gallery() {

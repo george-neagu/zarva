@@ -3,9 +3,9 @@ import Reveal from "./Reveal";
 import { StaggerItem, StaggerReveal } from "./StaggerReveal";
 
 const posts = [
-  { image: "/assets/social-1", alt: "Pahar cu vin roșu" },
-  { image: "/assets/social-2", alt: "Selecție de vinuri și struguri" },
-  { image: "/assets/social-3", alt: "Degustare de vin în magazin" },
+  { image: "/assets/social-1.png", alt: "Pahar cu vin roșu" },
+  { image: "/assets/social-2.png", alt: "Selecție de vinuri și struguri" },
+  { image: "/assets/social-3.png", alt: "Degustare de vin în magazin" },
 ] as const;
 
 export default function Community() {

@@ -104,25 +104,25 @@ export default function Products() {
             aria-label="Wolt"
             className="size-16 overflow-hidden rounded-full"
           >
-            <Image src="/assets/wolt" alt="" width={64} height={64} className="size-full object-cover" />
+            <Image src="/assets/wolt.png" alt="" width={64} height={64} className="size-full object-cover" />
           </li>
           <li
             aria-label="Glovo"
             className="size-16 overflow-hidden rounded-full"
           >
-            <Image src="/assets/glovo" alt="" width={64} height={64} className="size-full object-cover" />
+            <Image src="/assets/glovo.png" alt="" width={64} height={64} className="size-full object-cover" />
           </li>
           <li
             aria-label="Bolt Food"
             className="size-16 overflow-hidden rounded-full"
           >
-            <Image src="/assets/bolt" alt="" width={64} height={64} className="size-full object-cover" />
+            <Image src="/assets/bolt.png" alt="" width={64} height={64} className="size-full object-cover" />
           </li>
           <li
             aria-label="Bringo"
             className="size-16 overflow-hidden rounded-full"
           >
-            <Image src="/assets/bringo" alt="" width={64} height={64} className="size-full object-cover" />
+            <Image src="/assets/bringo.png" alt="" width={64} height={64} className="size-full object-cover" />
           </li>
         </ul>
       </Reveal>

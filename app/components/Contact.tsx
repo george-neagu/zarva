@@ -24,8 +24,8 @@ export default function Contact() {
         width={654}
         height={842}
         direction="right"
-        className="pointer-events-none absolute top-28 -z-10 hidden w-[554px] xl:block"
-        style={{ right: "calc(60% - 1344px)" }}
+        className="pointer-events-none absolute top-8 -z-10 hidden w-[554px] xl:block"
+        style={{ right: "calc(66% - 1344px)" }}
       />
 
       <Reveal className="mx-auto flex max-w-[1340px] flex-col items-center">
