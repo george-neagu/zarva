@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="https://use.typekit.net/jdk3jav.css">
+<link rel="stylesheet" href="https://use.typekit.net/jdk3jav.css">
+<style>
+  @import url("https://use.typekit.net/jdk3jav.css");
+  @import url("https://use.typekit.net/jdk3jav.css");
+</style>
+
+
+font-family: "gotham", sans-serif;
+font-weight: 100;
+font-style: normal;
+
+font-family: "gotham", sans-serif;
+font-weight: 500;
+font-style: normal;
+
+font-family: "gotham", sans-serif;
+font-weight: 700;
+font-style: normal;
+
+font-family: "tt-travels-next", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: "tt-travels-next", sans-serif;
+font-weight: 700;
+font-style: normal;
