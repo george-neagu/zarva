@@ -1,6 +1,4 @@
 import Image from "next/image";
-import contactBlob from "../../design/assets/contact-blob.svg";
-import contactBottle from "../../design/assets/Group 854.svg";
 import Reveal from "./Reveal";
 import SideArtwork from "./SideArtwork";
 
@@ -14,7 +12,7 @@ export default function Contact() {
       className="relative isolate scroll-mt-24 overflow-hidden bg-[#5f1905] px-6 py-16 text-[#fff1d5] sm:px-10 lg:scroll-mt-[168px] lg:px-16 lg:py-20"
     >
       <SideArtwork
-        src={contactBlob}
+        src="/assets/contact-blob.svg"
         width={1431}
         height={1083}
         direction="left"
@@ -22,7 +20,7 @@ export default function Contact() {
         style={{ left: "calc(50% - 960px)" }}
       />
       <SideArtwork
-        src={contactBottle}
+        src="/assets/bottle-3.svg"
         width={654}
         height={842}
         direction="right"
