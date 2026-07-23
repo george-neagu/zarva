@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Reveal from "./Reveal";
 import SideArtwork from "./SideArtwork";
 
@@ -136,13 +137,15 @@ export default function Contact() {
         </div>
 
         <div className="mt-16 flex w-full flex-col items-center justify-center gap-6 lg:mt-20 lg:flex-row lg:gap-10">
-          <Image
+          <Link href="https://anpc.ro/consumatori/soluționarea-alternativă-a-litigilor/" target="_blank" rel="noopener noreferrer">
+            <Image
             src="/assets/anpc.svg"
             alt="ANPC — Soluționarea alternativă a litigiilor"
             width={600}
             height={149}
             className="h-auto w-full max-w-[288px]"
           />
+          </Link>
           <Image
             src="/assets/age-disclaimer.svg"
             alt="18+ — Nu vindem băuturi alcoolice și tutun persoanelor sub 18 ani"
@@ -151,6 +154,34 @@ export default function Contact() {
             className="h-auto w-full max-w-[247px]"
           />
         </div>
+
+        <footer
+          className="mt-12 flex w-full flex-col items-center justify-between gap-5  pt-8 text-center text-xs text-[#fff1d5]/70 sm:flex-row sm:text-left"
+          style={{ fontFamily: "var(--font-gotham)" }}
+        >
+          <p>© 2026 ZAR’VĂ. Toate drepturile rezervate.</p>
+
+          <nav aria-label="Informații juridice">
+            <ul className="flex flex-wrap items-center justify-center gap-x-6 gap-y-3 sm:justify-end">
+              <li>
+                <Link
+                  href="/politica-de-cookies"
+                  className="underline decoration-[#fff1d5]/35 underline-offset-4 transition-colors hover:text-[#fff1d5] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-current"
+                >
+                  Politica de cookies
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/termeni-si-conditii"
+                  className="underline decoration-[#fff1d5]/35 underline-offset-4 transition-colors hover:text-[#fff1d5] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-current"
+                >
+                  Termeni și condiții
+                </Link>
+              </li>
+            </ul>
+          </nav>
+        </footer>
       </Reveal>
     </section>
   );
