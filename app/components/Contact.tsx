@@ -90,7 +90,7 @@ export default function Contact() {
             </a>
             <br />
             <a href="tel:+40773624950" className="hover:underline">
-              0040773624950
+              0773624950
             </a>
           </address>
         </div>
