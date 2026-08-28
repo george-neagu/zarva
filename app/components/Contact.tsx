@@ -73,11 +73,11 @@ export default function Contact() {
             <p>
               Program:
               <br />
-              Luni-Vineri 07:00-19:00
+              L-V: 07:00-19:00
               <br />
-              Sâmbătă 7:00-18:00
+              S: 07:00-18:00
               <br />
-              Duminică 7:00-17:00
+              D: 07:00-16:00
             </p>
           </div>
 
@@ -89,8 +89,8 @@ export default function Contact() {
               contact@zar-va.ro
             </a>
             <br />
-            <a href="tel:07xxxxxxxx" className="hover:underline">
-              07xxxxxxxx
+            <a href="tel:+40773624950" className="hover:underline">
+              0040773624950
             </a>
           </address>
         </div>
@@ -100,7 +100,7 @@ export default function Contact() {
         >
           <iframe
             title="Locația Zar'vă — Strada Ziduri Moși 4, București"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.212651962816!2d26.128280612443557!3d44.44931057095481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1f8ce325a8053%3A0xb41ef569083ba3b!2sStrada%20Ziduri%20Mo%C8%99i%204%2C%20077085%20Bucure%C8%99ti!5e0!3m2!1sen!2sro!4v1784734715095!5m2!1sen!2sro"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.212651956931!2d26.128285976949904!3d44.44931057107549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1f9e7aea85c3b%3A0x860ba50b586e5891!2sZar'v%C4%83%20Obor!5e0!3m2!1sen!2sro!4v1787920508756!5m2!1sen!2sro"
             width="1340"
             height="360"
             className="block h-[280px] w-full border-0 sm:h-[320px] lg:h-[360px]"
@@ -125,13 +125,34 @@ export default function Contact() {
 
           <ul aria-label="Rețele sociale" className="flex items-center gap-3">
             <li>
-              <Image src="/assets/tiktok.svg" alt="TikTok" width={59} height={59} className="size-[23px] sm:size-[28px]" />
+              <a
+                href="https://www.tiktok.com/@zarva.concept"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Zar'vă pe TikTok"
+              >
+                <Image src="/assets/tiktok.svg" alt="" width={59} height={59} className="size-[23px] sm:size-[28px]" />
+              </a>
             </li>
             <li>
-              <Image src="/assets/instagram.svg" alt="Instagram" width={59} height={59} className="size-[23px] sm:size-[28px]" />
+              <a
+                href="https://www.instagram.com/zarva.concept/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Zar'vă pe Instagram"
+              >
+                <Image src="/assets/instagram.svg" alt="" width={59} height={59} className="size-[23px] sm:size-[28px]" />
+              </a>
             </li>
             <li>
-              <Image src="/assets/facebook.svg" alt="Facebook" width={59} height={59} className="size-[23px] sm:size-[28px]" />
+              <a
+                href="https://www.facebook.com/Zarva.Obor/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Zar'vă pe Facebook"
+              >
+                <Image src="/assets/facebook.svg" alt="" width={59} height={59} className="size-[23px] sm:size-[28px]" />
+              </a>
             </li>
           </ul>
         </div>
